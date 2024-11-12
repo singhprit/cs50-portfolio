@@ -1,0 +1,10 @@
+{% extends "layout.html" %}
+
+{% block title %}Quoted{% endblock %}
+
+{% block main %}
+<h2>Quote for {{ stock["symbol"] }}</h2>
+<p>Name: {{ stock["name"] }}</p>
+<p>Price: {{ stock["price"] | usd }}</p>
+<a href="/quote">Look up another stock</a>
+{% endblock %}

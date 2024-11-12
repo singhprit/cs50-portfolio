@@ -1,0 +1,36 @@
+sort1 uses: Bubble Sort
+How do you know?:
+1. Bubble sort's best case is omega of n and worst case is n^2. In a random sort, bubble sort can be the slowest because it has to go through all of the elements twice (n^2 times).
+2. In a reverse sort, bubble sort has the worst time since it has to move each element on the very left all the way to the right, making a lot of excess swaps.
+3. This has the fastest time when running against already sorted data. It only has to look at each element once, making it better than selection sort since in the best case scenario, bubble sort is omega of n.
+sort2 uses: Merge Sort
+How do you know?:
+1. Merge sort's best case is omega (n log n) and worst case is O (n log n), which is faster than n^2 (selection sort). In a random sort, this is the fastest to complete by a landslide since it's utilizing recursion to break down a larger data set into smaller, manageable sortable sets.
+2. In a reverse sort, merge sort has the best time by a long shot. Utilizing recursion allows for the reversed data to be quickly reversed again into the sorted order.
+3. In a sorted run, merge sort still has to look at the elements n log n times, meaning it's not as fast as bubble sort (omega of n) but faster than selection sort (n^2).
+sort3 uses: Selection Sort
+How do you know?:
+1. Selection Sort's best case is Big Omega of n^2 and worst case is Big O of n^2. In a random sort, selection is the second fastest to complete (after merge sort).
+2. In a reverse sort, selection sort's time is between merge sort and bubble sort. It still has to iterate through each n element, but it doesn't actively swap its adjacent element, making it quicker than bubble sort.
+3. In a sorted run, selection sort still has to go through each element n^2 times and make comparisons, making it slower than bubble sort and merge sort
+## TEST NOTES: ##
+1. sorted small
+sort1: time ./sort1 sorted5000.txt, real    0m0.011s
+sort2: time ./sort2 sorted5000.txt, real    0m0.013s
+sort3: time ./sort3 sorted5000.txt, real    0m0.034s
+2. sorted large
+sort1: time ./sort1 sorted50000.txt, real    0m2.341s - 0m3.722s
+sort2: time ./sort2 sorted50000.txt, real    0m1.668s -  0m3.397s
+sort3: time ./sort3 sorted50000.txt, real    0m7.533s
+3. reversed small
+sort1: time ./sort1 reversed5000.txt, real    0m0.087s
+sort2: time ./sort2 reversed5000.txt, real    0m0.016s
+sort3: time ./sort3 reversed5000.txt, real    0m0.034s
+4. random small (multiple tests for each sort)
+sort1: time ./sort1 random5000.txt, real    0m0.057s - 0m0.127s
+sort2: time ./sort2 random5000.txt, real    0m0.010s - 0m0.017s
+sort3: time ./sort3 random5000.txt, real    0m0.032s - 0m0.036s
+5. random large (multiple tests for each sort)
+sort1: time ./sort1 random50000.txt, real    0m14.649s - 0m15.234s
+sort2: time ./sort2 random50000.txt, real    0m2.358s - 0m3.580s
+sort3: time ./sort3 random50000.txt, real    0m7.083s - 0m7.908s

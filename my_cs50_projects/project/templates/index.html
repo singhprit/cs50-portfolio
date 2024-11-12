@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+{% block title %}Your Expenses{% endblock %}
+{% block content %}
+<div class="form-container">
+    <h2>Your Expenses</h2>
+    <p><strong>Total Expenses:</strong> ${{ total_amount }}</p>
+
+    <table>
+        <tr>
+            <th>Date</th>
+            <th>Category</th>
+            <th>Amount</th>
+            <th>Description</th>
+        </tr>
+        {% for expense in expenses %}
+        <tr>
+            <td>{{ expense.date }}</td>
+            <td>{{ expense.category }}</td>
+            <td>${{ expense.amount }}</td>
+            <td>{{ expense.description }}</td>
+        </tr>
+        {% endfor %}
+    </table>
+</div>
+{% endblock %}
