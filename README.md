@@ -6,7 +6,7 @@ Welcome to my CS50 Portfolio! This repository showcases all the projects I compl
 
 Here is a list of the projects with links to each one. Click on the project name to explore more details.
 
-1. **[Birthdays](https://singhprit.github.io/cs50-portfolio/birthdays)** - A project to manage and display birthdays.
+1. **[Birthdays](https://github.com/singhprit/cs50-portfolio/tree/main/my_cs50_projects/birthdays)** - A project to manage and display birthdays.
 2. **[Caesar](https://your-username.github.io/cs50-portfolio/caesar)** - A simple Caesar cipher encryption program.
 3. **[Cash](https://your-username.github.io/cs50-portfolio/cash)** - A project to calculate change in the smallest number of coins.
 4. **[DNA](https://your-username.github.io/cs50-portfolio/dna)** - A DNA sequence matching project.
