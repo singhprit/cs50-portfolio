@@ -11,8 +11,8 @@ Here is a list of the projects with links to each one. Click on the project name
 3. **[Fiftyville](https://github.com/singhprit/cs50-portfolio/tree/main/my_cs50_projects/fiftyville)** - An investigative SQL project in a fictional town dataset.
 4. **[Filter - Less](https://github.com/singhprit/cs50-portfolio/tree/main/my_cs50_projects/filter-less)** - A filter project with fewer features.
 5. **[Filter - More](https://github.com/singhprit/cs50-portfolio/tree/main/my_cs50_projects/filter-more)** - A filter project with more advanced features.
-6. **[Finance](https://github.com/singhprit/cs50-portfolio/tree/main/my_cs50_projects/finance)** -
-7. **[Homepage](https://github.com/singhprit/cs50-portfolio/tree/main/my_cs50_projects/homepage)**
+6. **[Finance](https://github.com/singhprit/cs50-portfolio/tree/main/my_cs50_projects/finance)** - Implement a website via which users can “buy” and “sell” stocks, à la the below.
+7. **[Homepage](https://github.com/singhprit/cs50-portfolio/tree/main/my_cs50_projects/homepage)** - Build a simple homepage using HTML, CSS, and JavaScript.
 8. **[Inheritance](https://github.com/singhprit/cs50-portfolio/tree/main/my_cs50_projects/inheritance)** - Simulation of genetic inheritance.
 9. **[Me](https://github.com/singhprit/cs50-portfolio/tree/main/my_cs50_projects/me)** - Hello world, what is your name?
 10. **[Movies](https://github.com/singhprit/cs50-portfolio/tree/main/my_cs50_projects/movies)** - An SQL project analyzing a movies dataset.
