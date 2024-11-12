@@ -1,4 +1,4 @@
-# 🎓 CS50 Portfolio
+# 🎓 CS50 Portfolio - Priti Singh
 
 Welcome to my CS50 Portfolio! This repository showcases all the projects I completed as part of Harvard's CS50 course. Each project demonstrates different programming concepts and problem-solving techniques.
 
