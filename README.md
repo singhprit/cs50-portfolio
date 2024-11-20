@@ -48,3 +48,4 @@ Click on the project name to view each project. Links direct you to the correspo
 This repository is for educational purposes as part of CS50. All projects follow the academic guidelines and honour code of CS50.
 ## Certificate
 [My Certificate](https://github.com/singhprit/cs50-portfolio/blob/main/CS50x.pdf)
+[View the PDF]([https://github.com/username/repository/blob/branch/path-to-pdf/file.pdf](https://github.com/singhprit/cs50-portfolio/blob/main/HarvardX%20CS50x%20Certificate%20_%20edX.pdf))
